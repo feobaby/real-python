@@ -5,8 +5,8 @@
 2. [String interpolation and formatting in Python before version 3.6](#methods)
     1. [The Printf-Style String Formatting Method](#printf)
     2. [The str.format() String Formatting Method](#strformat)
-3. [The Formatted string literals Method](#schema)(#fstringsmethod)
-4. [Conclusion](#tools) (#conclude)
+3. [The Formatted string literals Method](#fstringsmethod)
+4. [Conclusion](#conclude)
 
 ---
 

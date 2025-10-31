@@ -1,6 +1,5 @@
 # Table of Contents
 
-
 1. [F-Strings: Formatting and Interpolating Strings in Python](#fstringsintro)
     1. [The Printf-Style String Formatting Method](#printf)
     2. [The str.format() String Formatting Method](#strformat)
@@ -10,7 +9,7 @@
 
 # F-Strings: Formatting and Interpolating Strings in Python <a name="fstringsintro"></a>
 
-Python f-strings, or **formatted string literals**, <a href="https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals" style="color:#c9d1d9; text-decoration:underline;">were introduced in Python 3.6 with PEP 498</a> to make string formatting easier. Before that, Python used other interpolation methods. This article explains those methods and demonstrates how f-strings simplify and improve formatting.
+Python f-strings, or **formatted string literals**, <a href="https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals" style="color:#c9d1d9; text-decoration:underline;">were introduced in Python 3.6 with PEP 498</a> to make string formatting better. Before that, Python used other  string interpolation methods. This article explains those methods and demonstrates how f-strings simplify and improve formatting.
 
 ### The Percent Operator Method <a name="printf"></a>
 
@@ -39,7 +38,7 @@ age = 30
 
 print("Hello {}, you are {} years old.".format(name, age))
 ```
-In the code example above, the curly braces `{}` are placeholders replaced by the values passed to `.format()` in order to make it easier to insert multiple values clearly and accurately.
+In the code example above, the curly braces `{}` are placeholders replaced by the values passed to `.format()`, helping you insert multiple values in a clear and organized way.
 
 You can also also use named placeholders for more clarity and readability.
 
@@ -56,7 +55,7 @@ In the code example above, `{n}` and `{a}` are replaced by the corresponding var
 ## The Formatted String Literals Method <a name="fstringsmethod"></a>
 Formatted string literals, or f-strings, were introduced in Python 3.6 with PEP 498.  
 They make string interpolation fast and concise, avoiding the verbosity of the `%` formatting or the `.format()` method.  
-<a href="https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals" style="color:#c9d1d9; text-decoration:underline;">F-strings start with `f` and embed variables or expressions in curly braces</a> `{}`, making code clearer and easier to read.
+<a href="https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals" style="color:#c9d1d9; text-decoration:underline;">F-strings start with `f` and embed variables or expressions in curly braces</a> `{}`, making code clearer and more readable.
 
 Here’s an example:
 
@@ -67,4 +66,4 @@ age = 30
 print(f"Hello {name}, you are {age} years old.")
 ```
 
-In the code example above, `{name} and {age}` are replaced by the values of the corresponding variables at runtime. This makes f-strings cleaner, easier to read, and more flexible than the older methods, especially when combining multiple variables or expressions in a single string.
+In the code example above, `{name}` and `{age}` are replaced by the values of the corresponding variables at runtime. This makes f-strings cleaner, easier to read, and more flexible than the older methods, especially when combining multiple variables or expressions in a single string.

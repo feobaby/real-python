@@ -1,8 +1,8 @@
 # Table of Contents
 
 1. [F-Strings: Formatting and Interpolating Strings in Python](#fstringsintro)
-    1. [The Printf-Style String Formatting Method](#printf)
-    2. [The str.format() String Formatting Method](#strformat)
+    1. [The Percent Operator Method](#printf)
+    2. [The String Format Method](#strformat)
 2. [The Formatted string literals Method](#fstringsmethod)
 
 ---

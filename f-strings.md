@@ -27,7 +27,7 @@ In the code example above, `%s` and `%d` are placeholders that get replaced by t
 
 ### The String Format Method <a name="strformat"></a>
 
-The **str.format()** method offers more flexibility than the percent operator.
+The `str.format()` method offers more flexibility than the percent operator.
 With this method, <a href="https://www.w3schools.com/python/ref_string_format.asp" style="color:#c9d1d9; text-decoration:underline;">you call `.format()` on a string containing the curly braces placeholders</a> `{}` to replace them with specific values.
 
 Here’s an example:
@@ -53,8 +53,7 @@ print("Hello {n}, you are {a} years old.".format(n=name, a=age))
 In the code example above, `{n}` and `{a}` are replaced by the corresponding variables. This approach avoids confusion when formatting strings with multiple values and improves readability over empty `{}` placeholders.
 
 ## The Formatted String Literals Method <a name="fstringsmethod"></a>
-Formatted string literals, or f-strings, were introduced in Python 3.6 with PEP 498.  
-They make string interpolation fast and concise, avoiding the verbosity of the `%` formatting or the `.format()` method.  
+Formatted string literals, or f-strings, were introduced in Python 3.6 with PEP 498. The beauty with this is that they make string interpolation fast and concise, avoiding the verbosity of the `%` formatting or the `.format()` method.  
 <a href="https://docs.python.org/3/whatsnew/3.6.html#pep-498-formatted-string-literals" style="color:#c9d1d9; text-decoration:underline;">F-strings start with `f` and embed variables or expressions in curly braces</a> `{}`, making code clearer and more readable.
 
 Here’s an example:

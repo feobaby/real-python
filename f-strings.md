@@ -24,7 +24,7 @@ age = 30
 
 print("Hello %s, you are %d years old." % (name, age))
 ```
-In this code, `%s` and `%d` are placeholders that get replaced by the values of `name` and `age`. While this works for simple cases, it can become cumbersome with many variables or complex expressions.
+In the code example above, `%s` and `%d` are placeholders that get replaced by the values of `name` and `age`. While this works for simple cases, it can become cumbersome with many variables or complex expressions.
 
 ### The String Format Method <a name="strformat"></a>
 
@@ -39,7 +39,7 @@ age = 30
 
 print("Hello {}, you are {} years old.".format(name, age))
 ```
-In this code, the curly braces `{}` are placeholders replaced by the values passed to `.format()` in order, making it easier to insert multiple values clearly and accurately.
+In the code example above, the curly braces `{}` are placeholders replaced by the values passed to `.format()` in order to make it easier to insert multiple values clearly and accurately.
 
 You can also also use named placeholders for more clarity and readability.
 
@@ -51,7 +51,7 @@ age = 30
 
 print("Hello {n}, you are {a} years old.".format(n=name, a=age))
 ```
-Here, `{n}` and `{a}` are replaced by the corresponding variables. This approach avoids confusion when formatting strings with multiple values and improves readability over empty `{}` placeholders.
+In the code example above, `{n}` and `{a}` are replaced by the corresponding variables. This approach avoids confusion when formatting strings with multiple values and improves readability over empty `{}` placeholders.
 
 ## The Formatted String Literals Method <a name="fstringsmethod"></a>
 Formatted string literals, or f-strings, were introduced in Python 3.6 with PEP 498.  
@@ -67,4 +67,4 @@ age = 30
 print(f"Hello {name}, you are {age} years old.")
 ```
 
-In this code, `{name} and {age}` are replaced by the values of the corresponding variables at runtime. This makes f-strings cleaner, easier to read, and more flexible than the older methods, especially when combining multiple variables or expressions in a single string.
+In the code example above, `{name} and {age}` are replaced by the values of the corresponding variables at runtime. This makes f-strings cleaner, easier to read, and more flexible than the older methods, especially when combining multiple variables or expressions in a single string.

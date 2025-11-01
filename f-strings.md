@@ -65,4 +65,4 @@ age = 30
 print(f"Hello {name}, you are {age} years old.")
 ```
 
-In the code example above, `{name}` and `{age}` are replaced by the values of the corresponding variables at runtime. This makes f-strings cleaner, easier to read, and more flexible than the older methods, especially when combining multiple variables or expressions in a single string.
+In the code example above, `{name}` and `{age}` are replaced by the values of the corresponding variables at runtime. This makes f-strings cleaner, better, more readable, and more flexible than the older methods, especially when combining multiple variables or expressions in a single string.
